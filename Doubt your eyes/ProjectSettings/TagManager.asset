@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Traps
+  - knife
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Traps
+    uniqueID: 771626407
+    locked: 0
+  - name: Bg
+    uniqueID: 472837273
+    locked: 0
+  - name: Collider
+    uniqueID: 3093252421
+    locked: 0
+  - name: Player
+    uniqueID: 1228198367
     locked: 0

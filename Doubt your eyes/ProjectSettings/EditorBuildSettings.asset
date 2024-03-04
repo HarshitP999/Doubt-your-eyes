@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MainMenu.unity
+    guid: 56d87ba009cb2d847aaaae41bdbdd6a8
+  - enabled: 1
+    path: Assets/Scenes/Castle of wooo.unity
+    guid: 1ec384a26afcd47489ac28f164bd0154
   m_configObjects: {}
