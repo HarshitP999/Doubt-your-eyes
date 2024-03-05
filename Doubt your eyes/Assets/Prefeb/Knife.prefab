@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6002725612905155216}
   - component: {fileID: 315014121913684017}
   - component: {fileID: 9200198448741082001}
+  - component: {fileID: 4059226947869233668}
   m_Layer: 0
   m_Name: Knife
   m_TagString: Untagged
@@ -146,7 +147,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -157,4 +158,17 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 0
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &4059226947869233668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7207208390532931868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f577a609c8bd74549ab3b5d4d156c520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knifeForce: 2
